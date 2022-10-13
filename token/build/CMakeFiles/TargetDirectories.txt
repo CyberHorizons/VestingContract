@@ -1,0 +1,3 @@
+/wax/apocstaking/apoctoken/token/build/CMakeFiles/rebuild_cache.dir
+/wax/apocstaking/apoctoken/token/build/CMakeFiles/token_project.dir
+/wax/apocstaking/apoctoken/token/build/CMakeFiles/edit_cache.dir

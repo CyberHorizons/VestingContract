@@ -1,0 +1,14 @@
+# Target labels
+ vesting_project
+# Source files and their labels
+/wax/vesting/build/CMakeFiles/vesting_project
+/wax/vesting/build/CMakeFiles/vesting_project.rule
+/wax/vesting/build/CMakeFiles/vesting_project-complete.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-install.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-mkdir.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-download.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-update.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-patch.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-configure.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-build.rule
+/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-test.rule

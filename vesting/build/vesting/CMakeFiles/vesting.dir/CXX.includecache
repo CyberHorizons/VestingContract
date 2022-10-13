@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/wax/vesting/src/../include/vesting.hpp
+eosio/eosio.hpp
+-
+eosio/asset.hpp
+-
+eosio/transaction.hpp
+-
+stdint.h
+-
+string
+-
+
+/wax/vesting/src/vesting.cpp
+vesting.hpp
+-
+stdint.h
+-
+string
+-
+utility
+-
+

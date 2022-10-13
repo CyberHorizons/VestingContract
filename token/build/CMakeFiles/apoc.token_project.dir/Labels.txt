@@ -1,0 +1,14 @@
+# Target labels
+ apoc.token_project
+# Source files and their labels
+/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project
+/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project.rule
+/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project-complete.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-install.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-mkdir.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-download.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-update.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-patch.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-configure.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-build.rule
+/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-test.rule

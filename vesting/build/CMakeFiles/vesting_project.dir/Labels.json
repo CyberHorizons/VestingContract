@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/wax/vesting/build/CMakeFiles/vesting_project"
+		},
+		{
+			"file" : "/wax/vesting/build/CMakeFiles/vesting_project.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/CMakeFiles/vesting_project-complete.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-install.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-mkdir.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-download.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-update.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-patch.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-configure.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-build.rule"
+		},
+		{
+			"file" : "/wax/vesting/build/vesting_project-prefix/src/vesting_project-stamp/vesting_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"vesting_project"
+		],
+		"name" : "vesting_project"
+	}
+}

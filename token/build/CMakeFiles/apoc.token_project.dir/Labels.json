@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/CMakeFiles/apoc.token_project-complete.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-install.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-mkdir.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-download.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-update.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-patch.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-configure.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-build.rule"
+		},
+		{
+			"file" : "/wax/apocstaking/apoctoken/build/apoc.token_project-prefix/src/apoc.token_project-stamp/apoc.token_project-test.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"apoc.token_project"
+		],
+		"name" : "apoc.token_project"
+	}
+}

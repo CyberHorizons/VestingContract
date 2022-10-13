@@ -1,0 +1,27 @@
+{"msg": "succeeded", "keys": {"active_key": {"public": "EOS72tCA3y2neaAVQfCnMpsWbrZJRxm24RvAPwwCbzmJB1BVswjhU", "private": "5JjnyCAFJN8uXdjyGNoxfvcNtsk4R5QvoL2WV7M3M9D5g9K3Bg3"}, "owner_key": {"public": "EOS88ZxkmSP6etG66fsEwHxUvFgHA8B4NpAr8Z12PvncnbEqJjquB", "private": "5KjdNiKKujKVn4JUjFg2n9r7267ZtiFAYLbXxaXudJBgcSAdfiH"}}, "account": "apocvestpool"}
+
+cleos wallet create -n apocvestpool --to-console &&
+ cleos wallet import -n apocvestpool --private-key 5JjnyCAFJN8uXdjyGNoxfvcNtsk4R5QvoL2WV7M3M9D5g9K3Bg3 &&
+ cleos wallet import -n apocvestpool --private-key 5KjdNiKKujKVn4JUjFg2n9r7267ZtiFAYLbXxaXudJBgcSAdfiH
+
+cleos wallet open -n apocvestpool &&
+cleos wallet unlock -n apocvestpool --password PW5HtvZhLTpHeqb6mBT9TbTPoAbmxAChMNL94ZBqiYH4bTF2VMWTf
+
+
+{"msg": "succeeded", "keys": {"active_key": {"public": "EOS77LZangeT8hCSdhacnbnDbQrWMi9XX5M7epd2SC855D8tEn61V", "private": "5HzxdYxy7LPB2w3H5etre6hxLqQZWPjQWqn6mt7EuL52fyJjrHN"}, "owner_key": {"public": "EOS8Hnfo2DsCQsq6gDBpz7hrxw8dpPramF8WhtoghREMvSX48ZpBj", "private": "5KLmh5NfzL8n7Chua81P23mGDybLMfZ5tDWSpBk3y2yj3LjV429"}}, "account": "apoctokens12"}
+
+cleos wallet create -n apoctokens12 --to-console &&
+ cleos wallet import -n apoctokens12 --private-key 5HzxdYxy7LPB2w3H5etre6hxLqQZWPjQWqn6mt7EuL52fyJjrHN &&
+ cleos wallet import -n apoctokens12 --private-key 5KLmh5NfzL8n7Chua81P23mGDybLMfZ5tDWSpBk3y2yj3LjV429
+
+cleos wallet open -n apoctokens12 &&
+cleos wallet unlock -n apoctokens12 --password PW5JjxfbCkgm5xpGerS9ZVKKdcr6LbxMuvgNkciJVzeuRKYhzmiKs
+
+{"msg": "succeeded", "keys": {"active_key": {"public": "EOS6ymAcLjyyWoUeA9KsvNVegWqRNy8RuTSM9YuRR89wJf3MGNGGK", "private": "5KjNBQvVRCwiEgf9XjwGqjR5oFi9vrwthChxQopsgWKxygZVH3W"}, "owner_key": {"public": "EOS5hNtrSjQVLPBZgLYj6MRzMfgi6foHPYoRdZ9bQgSJKxvq4njFp", "private": "5K7Yqzb6HHpkTG8qf3r4ApDosMRqdHg1ca5WxwoFzrJqu4sZeqS"}}, "account": "apocinvestp1"}
+
+cleos wallet create -n apocinvestp1 --to-console &&
+ cleos wallet import -n apocinvestp1 --private-key 5KjNBQvVRCwiEgf9XjwGqjR5oFi9vrwthChxQopsgWKxygZVH3W &&
+ cleos wallet import -n apocinvestp1 --private-key 5K7Yqzb6HHpkTG8qf3r4ApDosMRqdHg1ca5WxwoFzrJqu4sZeqS
+
+cleos wallet open -n apocinvestp1 &&
+cleos wallet unlock -n apocinvestp1 --password PW5JEgZF65VBDPQdiLK5ECEKTH6GX8Lq8mWKCc1gvyj5GBr3tb8Tu

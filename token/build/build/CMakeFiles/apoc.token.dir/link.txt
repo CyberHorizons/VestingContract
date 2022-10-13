@@ -1,0 +1,1 @@
+/usr/local/eosio.cdt/bin/eosio-ld  CMakeFiles/apoc.token.dir/apoc.token.obj -o apoc.token.wasm 

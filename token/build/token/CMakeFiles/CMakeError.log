@@ -1,0 +1,126 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cc 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: cannot open /tmp/CMakeCCompilerId.c.o: No such file or directory
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/eosio.cdt/bin/eosio-cpp 
+Build flags: ;-O3;
+Id flags:  
+
+The output was:
+255
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: main(int, char**)
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_platform
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_compiler
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_language_dialect_default
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+/usr/local/eosio.cdt/bin/wasm-ld: error: duplicate symbol: info_arch
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+>>> defined in /tmp/CMakeCXXCompilerId.cpp.o
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80829/fast"
+make[3]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_80829.dir/build.make CMakeFiles/cmTC_80829.dir/build
+make[4]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80829.dir/CMakeCCompilerABI.c.obj
+/usr/local/eosio.cdt/bin/eosio-cc    -o CMakeFiles/cmTC_80829.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_80829.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80829.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_80829.dir/CMakeCCompilerABI.c.obj -o cmTC_80829.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_80829.dir/build.make:97: recipe for target 'cmTC_80829.wasm' failed
+make[4]: *** [cmTC_80829.wasm] Error 1
+make[4]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_80829/fast' failed
+make[3]: *** [cmTC_80829/fast] Error 2
+make[3]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C [-std=c11] compiler features failed to compile with the following output:
+Change Dir: /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3d173/fast"
+make[3]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_3d173.dir/build.make CMakeFiles/cmTC_3d173.dir/build
+make[4]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d173.dir/feature_tests.c.obj
+/usr/local/eosio.cdt/bin/eosio-cc   -std=c11 -o CMakeFiles/cmTC_3d173.dir/feature_tests.c.obj   -c /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/feature_tests.c
+eosio-cc: Unknown command line argument '-std=c11'.  Try: '/usr/local/eosio.cdt/bin/eosio-cc -help'
+eosio-cc: Did you mean '-w=c11'?
+CMakeFiles/cmTC_3d173.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_3d173.dir/feature_tests.c.obj' failed
+make[4]: *** [CMakeFiles/cmTC_3d173.dir/feature_tests.c.obj] Error 1
+make[4]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3d173/fast' failed
+make[3]: *** [cmTC_3d173/fast] Error 2
+make[3]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d751/fast"
+make[3]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d751.dir/build.make CMakeFiles/cmTC_7d751.dir/build
+make[4]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d751.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/local/eosio.cdt/bin/eosio-cpp     -o CMakeFiles/cmTC_7d751.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7d751.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d751.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld  -v CMakeFiles/cmTC_7d751.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_7d751.wasm 
+eosio-ld: Unknown command line argument '-v'.  Try: '/usr/local/eosio.cdt/bin/eosio-ld -help'
+eosio-ld: Did you mean '-L'?
+CMakeFiles/cmTC_7d751.dir/build.make:97: recipe for target 'cmTC_7d751.wasm' failed
+make[4]: *** [cmTC_7d751.wasm] Error 1
+make[4]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d751/fast' failed
+make[3]: *** [cmTC_7d751/fast] Error 2
+make[3]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX [-std=c++1z] compiler features failed to compile with the following output:
+Change Dir: /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a6452/fast"
+make[3]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a6452.dir/build.make CMakeFiles/cmTC_a6452.dir/build
+make[4]: Entering directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a6452.dir/feature_tests.cxx.obj
+/usr/local/eosio.cdt/bin/eosio-cpp    -std=c++1z -o CMakeFiles/cmTC_a6452.dir/feature_tests.cxx.obj -c /wax/apocstaking/apoctoken/token/build/token/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a6452.wasm
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a6452.dir/link.txt --verbose=1
+/usr/local/eosio.cdt/bin/eosio-ld   CMakeFiles/cmTC_a6452.dir/feature_tests.cxx.obj -o cmTC_a6452.wasm 
+/usr/local/eosio.cdt/bin/wasm-ld: error: fatal failure: contract with no actions and trying to create dispatcher
+CMakeFiles/cmTC_a6452.dir/build.make:97: recipe for target 'cmTC_a6452.wasm' failed
+make[4]: *** [cmTC_a6452.wasm] Error 255
+make[4]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a6452/fast' failed
+make[3]: *** [cmTC_a6452/fast] Error 2
+make[3]: Leaving directory '/wax/apocstaking/apoctoken/token/build/token/CMakeFiles/CMakeTmp'
+
+
+

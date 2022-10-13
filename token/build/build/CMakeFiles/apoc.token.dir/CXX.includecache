@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/wax/apocstaking/apoctoken/src/../include/apoc.token.hpp
+eosio/asset.hpp
+-
+eosio/eosio.hpp
+-
+string
+-
+hydra.hpp
+/wax/apocstaking/apoctoken/src/../include/hydra.hpp
+
+/wax/apocstaking/apoctoken/src/../include/hydra.hpp
+eosio/eosio.hpp
+-
+eosio/print.hpp
+-
+
+/wax/apocstaking/apoctoken/src/apoc.token.cpp
+apoc.token.hpp
+-
+
